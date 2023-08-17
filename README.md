@@ -4,6 +4,12 @@ Welcome to the Predicting Road Crash Severity data science project repository! T
 ### Overview
 Road accidents pose a significant societal issue with global implications. In Victoria, Australia, an average of 240 people lose their lives annually in such incidents (Transport Accident Commission, 2021). Analyzing accident severity and identifying contributing factors has become increasingly critical. To address this challenge, I have gathered a comprehensive dataset of 60,680 instances and 49 variables, including police report observations for a 5 year period (2015 - 2019) compiled by VicRoads and available from [Department of Transport](data.vic.gov.au), as well as historical localised meteorological observations using [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api).
 
+### Table of Contents
+1. [Data gathering and cleaning - initial inspection and processing](https://github.com/MarkStephens060482/Big-Data-projects/blob/main/Road%20Accident%20Severity%20-%20Data%20Cleaning.ipynb)
+2. [Exploratory Data Analysis - Part 1](https://github.com/MarkStephens060482/Big-Data-projects/blob/main/Road_Accident_Severity_EDA_part_1.ipynb)
+3. [Exploratory Data Analysis - Part 2](https://github.com/MarkStephens060482/Big-Data-projects/blob/main/Car_Accident_Severity_EDA_part_2.ipynb)
+4. [Data Modelling and Evaluation](https://github.com/MarkStephens060482/Big-Data-projects/blob/main/Severity_of_Road_Accidents_modelling%20and%20evaluation.ipynb)
+
 ### Data Cleaning
 I began by cleaning the road crash data, inspecting variable, checking type and unique values. I developed a concurrent Weather API call function to gather historical meteorological observations based on longitude and latitude and time and date of all road crash incidences. Also, historical Public holiday and Long Weekend dates were collated using a [date nager API](https://date.nager.at/api/v3/LongWeekend). Imputation strategies were employed to address missing values before remaining null values were removed. 
 ### Data Exploration
